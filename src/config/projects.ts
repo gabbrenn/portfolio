@@ -188,7 +188,7 @@ export const experiences: Experience[] = [
 
 import javaCertificate from "@/assets/certificates/java-certificate.png";
 import alxCertificate from "@/assets/certificates/alx-software-engineering.png";
-import javaScriptCertificate from "@/assets/certificates/Javascript-certificate.jpg";
+import javaScriptCertificate from "@/assets/certificates/javascript-certificate.jpg";
 export interface Certificate {
   id: string;
   name: string;
