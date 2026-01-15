@@ -20,7 +20,7 @@ export const projects: Project[] = [
     title: "Online Bus Ticketing System and Agency management",
     description: "Spring Boot backend for the Inzira multi‑role bus ticketing platform. Provides authentication, booking, schedules, agency management, payments, analytics, file uploads (logos, tickets), and admin reporting. Supports PostgreSQL, MySQL, or local H2 (default) with zero code changes. ",
     technologies: ["Spring Boot", "Java", "PostgreSQL","Docker", "Stripe API", "sendgrid API"],
-    githubUrl: "https://github.com/gabbrenn/inzira_ticket_system",
+    githubUrl: "https://github.com/gabbrenn/inzira_ticket_system_backend",
     featured: true,
   },
   {
@@ -60,10 +60,10 @@ export const personalInfo = {
   phone: "+250 786 077 754",
   location: "KK431 St Kigali, Kicukiro, Rwanda",
   bio: "Backend Developer with expertise in building scalable RESTful APIs, optimizing server-side logic, and designing efficient database architectures. Experienced in Python, Django, Flask, Java, and PHP. Also skilled in mobile app development using React Native and Flutter. Passionate about writing clean, performant, and maintainable code.",
-  resumeUrl: "/src/assets/Vladimir_Brenn_Gabiro_Resume.pdf",
+  resumeUrl: "/Vladimir_Brenn_Gabiro_Resume.pdf",
   social: {
     github: "https://github.com/gabbrenn",
-    linkedin: "www.linkedin.com/in/gabiro-vladimir-brenn",
+    linkedin: "https://www.linkedin.com/in/gabiro-vladimir-brenn",
   },
 };
 

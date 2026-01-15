@@ -59,7 +59,9 @@ const ContactSection = () => {
             </a>
             {personalInfo.phone && (
               <a
-                href={`tel:${personalInfo.phone}`}
+                href="https://wa.me/250786077754"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center gap-2 hover:text-primary transition-colors"
               >
                 <Phone className="w-5 h-5" />

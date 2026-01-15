@@ -73,7 +73,7 @@ const HeroSection = () => {
           >
             <span>📍 {personalInfo.location}</span>
             {personalInfo.phone && (
-              <a href={`tel:${personalInfo.phone}`} className="hover:text-primary transition-colors flex items-center gap-1">
+              <a href="https://wa.me/250786077754" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors flex items-center gap-1">
                 <Phone className="w-4 h-4" />
                 {personalInfo.phone}
               </a>
